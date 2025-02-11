@@ -1,0 +1,37 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+*.venv
+
+# PyCharm project files
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debugging files
+*.log
+debug.log
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables and credentials
+.env
+*.secret
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
