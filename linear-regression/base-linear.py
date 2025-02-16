@@ -7,7 +7,7 @@ def generate_random_data():
     y = 4 + 3 * X + np.random.randn(100, 1) #adding some noise
     return X, y
 
-def plot(e):
+def plot():
     plt.xlabel("X")
     plt.ylabel("y")
     plt.legend()
@@ -48,4 +48,4 @@ if __name__ == '__main__':
     y_prediction = model.predict(X)
     plt.scatter(X, y, label="Generated Records")
     plt.plot(X, y_prediction, color="red", linewidth=2, label="Regression line")
-    plot(plt)
+    plot()
